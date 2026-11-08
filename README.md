@@ -1,5 +1,7 @@
 # Romanized-to-Devanagari Nepali Translator (Seq2Seq Transformer)
 [![Hugging Face Model](https://shields.io)](https://huggingface.co)
+[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow)](https://huggingface.co/rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp)
+
 
 An offline, lightweight **Sequence-to-Sequence (Seq2Seq) Neural Machine Translation (NMT)** system built from scratch in PyTorch. It translates Romanized Nepali text (including common chat slang) into native Devanagari script using a custom 2-layer Encoder-Decoder Transformer and SentencePiece subword tokenization.
 
@@ -69,7 +71,7 @@ python app/main.py
 - **Subsequent Runs:** Automatically detects `app/spm_nepali.model` and `app/model.pt` and starts the offline translator immediately.
 
 ### 3. Download Pre-trained Weights from Hugging Face
- - Pre-trained weights (`model.pt`) and the SentencePiece tokenizer (`spm_nepali.model`) are hosted at:
+ - Pre-trained weights (`model.pt`) and the SentencePiece tokenizer (`spm_nepali.model`) are hosted at hugging face:
  - 👉 **[rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp](https://huggingface.co/rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp)**
 ---
 
