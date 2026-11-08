@@ -1,5 +1,4 @@
 # Romanized-to-Devanagari Nepali Translator (Seq2Seq Transformer)
-[![Hugging Face Model](https://shields.io)](https://huggingface.co)
 [![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow)](https://huggingface.co/rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp)
 
 
