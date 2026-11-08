@@ -46,7 +46,7 @@ romanized-to-devanagari-using-sentencepiece-tokenizer-nlp
 
 ### Data Flow
 1. **Preprocessing:** Raw user input passes through `normalize_chat_input()` to expand chat slang, capitalize the first letter, and ensure proper punctuation.
-2. **Encoding:** SentencePiece converts the Romanized string into subword IDs (`[<sos>, ..., <eos>]`), which are embedded, scaled by \(\sqrt{d_{\text{model}}}\), summed with sinusoidal positional signals, and passed through the 2-layer Encoder.
+2. **Encoding:** SentencePiece converts the Romanized string into subword IDs (`[<sos>, ..., <eos>]`), which are embedded, scaled by sqrt(d_model), summed with sinusoidal positional signals, and passed through the 2-layer Encoder.
 3. **Autoregressive Decoding:** Starting from `<sos>`, the 2-layer Decoder attends to the encoder memory via Cross-Attention and predicts Devanagari subword tokens step-by-step until `<eos>` or a dynamic input-proportional length cap is reached.
 
 ---
