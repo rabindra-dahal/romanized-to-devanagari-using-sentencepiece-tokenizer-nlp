@@ -69,8 +69,8 @@ python app/main.py
 - **Subsequent Runs:** Automatically detects `app/spm_nepali.model` and `app/model.pt` and starts the offline translator immediately.
 
 ### 3. Download Pre-trained Weights from Hugging Face
-Pre-trained weights (`model.pt`) and the SentencePiece tokenizer (`spm_nepali.model`) are hosted at:
-👉 **[rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp](https://huggingface.co/rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp)**
+ - Pre-trained weights (`model.pt`) and the SentencePiece tokenizer (`spm_nepali.model`) are hosted at:
+ - 👉 **[rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp](https://huggingface.co/rabindra-dahal/romanized-to-devanagari-using-sentencepiece-tokenizer-nlp)**
 ---
 
 ## Example Outputs
